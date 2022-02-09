@@ -37,10 +37,10 @@
       "location": "Bay Ridge"
     },
     {
-      "id": 7,
-      "description": "Treadmill Parts For Free",
-      "image": "./images/treadmill.jpg",
-      "location": "East Flatbush"
+      "description": "Patrick",
+      "image": "https://cdn.shopify.com/s/files/1/0054/4371/5170/products/PatrickStar_467pin_900x.png?v=1627414164",
+      "location": "Bikini Bottom",
+      "id": 7
     }
   ]
 }

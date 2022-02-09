@@ -1,7 +1,9 @@
 import React from "react";
 import Search from "./Search";
+import NewListing from "./NewListing"
+import Dropdown from "./Dropdown"
 
-function Header() {
+function Header({ setSearch, handleAddedItem, setSorting }) {
   return (
     <header>
       <h1>
@@ -10,7 +12,10 @@ function Header() {
         </span>
         gregslist
       </h1>
-      <Search />
+      <span style={{ paddingLeft: "20px" }}><Dropdown setSorting={setSorting} /></span>
+      <Search setSearch={setSearch} />
+      <span style={{ paddingRight: "10px" }}>Add New Item: </span>
+      <NewListing handleAddedItem={handleAddedItem} />
     </header>
   );
 }
